@@ -1,15 +1,11 @@
 import os
 import sys
 
+from data import load_dataset
+import config
 
-if __name__ == 'main':
-    sys.path.insert(0, os.path.join(os.path.dirname(__file__name), '..'))
-
-from .data import load_dataset
-from . import config
-
-main()
-
+def main():
+    dataset = load_dataset(show_info=True)
 
 if __name__ == '__main__':
     print('Start of test')

@@ -9,6 +9,7 @@ EXPERIMENT_NAME       = 'occasion-test-1'
 EXPERIMENT_NAME       = SIGNATURE + '-' + EXPERIMENT_NAME
 
 # vi_dataset params
-NEW_DATASET_NAME      = 'occasion'
-ORIG_DATASET_NAME     = 'occasion_v20180212'
+DATASET_NAME          = 'occasion'
+DATASET_NAME          = SIGNATURE + '_' + DATASET_NAME
+SOURCE_DATASET_NAME   = 'occasion_v20180212'
 LABEL_FOLDER_NAME     = 'default_label'
